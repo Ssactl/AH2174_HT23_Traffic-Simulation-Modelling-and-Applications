@@ -1,0 +1,5 @@
+<additional>
+   <!-- <inductionLoop id="detecor1" lane="edge2_0" pos="0" period="300"
+   file="detector_output.xml" friendlyPos="true"/> -->
+    <laneAreaDetector file="detector_output.xml" freq="60" id="detecor1" lanes="edge2_0 edge3_0 edge4_0 edge5_0" pos="0" endPos="-1" period='300'/>
+</additional>
