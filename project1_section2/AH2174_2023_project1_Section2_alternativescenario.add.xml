@@ -1,5 +1,7 @@
 <additional>
-   <inductionLoop id="detecor_edge2_0" lane="edge2_0" pos="500" period="300"
+   <!-- <inductionLoop id="detecor1" lane="edge2_0" pos="0" period="300"
+   file="detector_output.xml" friendlyPos="true"/> -->
+     <inductionLoop id="detecor_edge2_0" lane="edge2_0" pos="500" period="300"
    file="detector_output_1.xml" friendlyPos="true"/>
    <inductionLoop id="detecor_edge2_1" lane="edge2_1" pos="500" period="300"
    file="detector_output_2.xml" friendlyPos="true"/>
@@ -23,4 +25,13 @@ file="detector_output_8.xml" friendlyPos="true"/>
    file="detector_output_11.xml" friendlyPos="true"/>
    <inductionLoop id="detecor_edge5_2" lane="edge5_2" pos="500" period="300"
    file="detector_output_12.xml" friendlyPos="true"/>
+    <rerouter id="rerouter1" edges="edge4">
+        <interval begin="2400" end="4140"> <!-- 30 min after start to 10 min before the end -->
+            <!-- Assuming the rightmost lane has index 0 -->
+            <closingLaneReroute id="edge4_0"/>
+            <closingLaneReroute id="edge4_1"/>            
+            <!-- Set speed limit for the entire edge -->
+            <speedLimitReroute id="edge4" speed="30"/>
+        </interval>
+    </rerouter>
 </additional>
