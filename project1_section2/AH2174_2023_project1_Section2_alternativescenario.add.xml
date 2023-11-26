@@ -26,7 +26,7 @@ file="detector_output_8.xml" friendlyPos="true"/>
    <inductionLoop id="detecor_edge5_2" lane="edge5_2" pos="500" period="300"
    file="detector_output_12.xml" friendlyPos="true"/>
     <rerouter id="rerouter1" edges="edge4">
-        <interval begin="2400" end="4140"> <!-- 30 min after start to 10 min before the end -->
+        <interval begin="1800" end="3540"> <!-- 30 min after start to 10 min before the end -->
             <!-- Assuming the rightmost lane has index 0 -->
             <closingLaneReroute id="edge4_0"/>
             <closingLaneReroute id="edge4_1"/>            
