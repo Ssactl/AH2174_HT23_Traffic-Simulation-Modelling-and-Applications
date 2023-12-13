@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2023-12-11 13:51:18 by Eclipse SUMO netconvert Version 1.19.0
+<!-- generated on 2023-12-13 18:03:37 by Eclipse SUMO netconvert Version 1.19.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
@@ -20,35 +20,35 @@
 
     <location netOffset="0.00,0.00" convBoundary="0.00,0.00,5000.00,0.00" origBoundary="0.00,0.00,5000.00,0.00" projParameter="!"/>
 
-    <type id="highwayType" priority="2" numLanes="1" speed="19.44"/>
+    <type id="highwayType" priority="2" numLanes="1" speed="33.33"/>
 
     <edge id=":node2_0" function="internal">
-        <lane id=":node2_0_0" index="0" speed="19.44" length="0.10" shape="1000.00,-1.60 1000.00,-1.60"/>
+        <lane id=":node2_0_0" index="0" speed="33.33" length="0.10" shape="1000.00,-1.60 1000.00,-1.60"/>
     </edge>
     <edge id=":node3_0" function="internal">
-        <lane id=":node3_0_0" index="0" speed="19.44" length="0.10" shape="2000.00,-1.60 2000.00,-1.60"/>
+        <lane id=":node3_0_0" index="0" speed="33.33" length="0.10" shape="2000.00,-1.60 2000.00,-1.60"/>
     </edge>
     <edge id=":node4_0" function="internal">
-        <lane id=":node4_0_0" index="0" speed="19.44" length="0.10" shape="3000.00,-1.60 3000.00,-1.60"/>
+        <lane id=":node4_0_0" index="0" speed="33.33" length="0.10" shape="3000.00,-1.60 3000.00,-1.60"/>
     </edge>
     <edge id=":node5_0" function="internal">
-        <lane id=":node5_0_0" index="0" speed="19.44" length="0.10" shape="4000.00,-1.60 4000.00,-1.60"/>
+        <lane id=":node5_0_0" index="0" speed="33.33" length="0.10" shape="4000.00,-1.60 4000.00,-1.60"/>
     </edge>
 
     <edge id="edge1" from="node1" to="node2" priority="-1">
-        <lane id="edge1_0" index="0" speed="19.44" length="1000.00" shape="0.00,-1.60 1000.00,-1.60"/>
+        <lane id="edge1_0" index="0" speed="33.33" length="1000.00" shape="0.00,-1.60 1000.00,-1.60"/>
     </edge>
     <edge id="edge2" from="node2" to="node3" priority="-1">
-        <lane id="edge2_0" index="0" speed="19.44" length="1000.00" shape="1000.00,-1.60 2000.00,-1.60"/>
+        <lane id="edge2_0" index="0" speed="33.33" length="1000.00" shape="1000.00,-1.60 2000.00,-1.60"/>
     </edge>
     <edge id="edge3" from="node3" to="node4" priority="-1">
-        <lane id="edge3_0" index="0" speed="19.44" length="1000.00" shape="2000.00,-1.60 3000.00,-1.60"/>
+        <lane id="edge3_0" index="0" speed="33.33" length="1000.00" shape="2000.00,-1.60 3000.00,-1.60"/>
     </edge>
     <edge id="edge4" from="node4" to="node5" priority="-1">
-        <lane id="edge4_0" index="0" speed="19.44" length="1000.00" shape="3000.00,-1.60 4000.00,-1.60"/>
+        <lane id="edge4_0" index="0" speed="33.33" length="1000.00" shape="3000.00,-1.60 4000.00,-1.60"/>
     </edge>
     <edge id="edge5" from="node5" to="node6" priority="-1">
-        <lane id="edge5_0" index="0" speed="19.44" length="1000.00" shape="4000.00,-1.60 5000.00,-1.60"/>
+        <lane id="edge5_0" index="0" speed="33.33" length="1000.00" shape="4000.00,-1.60 5000.00,-1.60"/>
     </edge>
 
     <junction id="node1" type="dead_end" x="0.00" y="0.00" incLanes="" intLanes="" shape="0.00,0.00 0.00,-3.20"/>
