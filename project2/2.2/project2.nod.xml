@@ -1,8 +1,0 @@
-<nodes>
-    <node id="node1" x="0.00" y="0.00" />
-    <node id="node2" x="1000.00" y="0.00" />
-    <node id="node3" x="2000.00" y="0.00" />
-    <node id="node4" x="3000.00" y="0.00" />
-    <node id="node5" x="4000.00" y="0.00" />
-    <node id="node6" x="5000.00" y="0.00" />
-</nodes>
