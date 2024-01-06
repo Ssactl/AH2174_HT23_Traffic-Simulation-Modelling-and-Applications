@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2023-11-13 13:43:01 by Eclipse SUMO netconvert Version 1.19.0
+<!-- generated on 2024-01-04 16:07:08 by Eclipse SUMO netconvert Version 1.19.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
-        <node-files value="AH2174_2023_project1_section2.nod.xml"/>
-        <edge-files value="AH2174_2023_project1_section2.edge.xml"/>
-        <type-files value="AH2174_2023_project1_section2.type.xml"/>
+        <node-files value="AH2174_2023_project1_Section2.nod.xml"/>
+        <edge-files value="AH2174_2023_project1_Section2.edge.xml"/>
+        <type-files value="AH2174_2023_project1_Section2.type.xml"/>
     </input>
 
     <output>
-        <output-file value="AH2174_2023_project1_section2_.net.xml"/>
+        <output-file value="AH2174_2023_project1_section2.net.xml"/>
     </output>
 
 </configuration>
@@ -20,53 +20,53 @@
 
     <location netOffset="0.00,0.00" convBoundary="0.00,0.00,5000.00,0.00" origBoundary="0.00,0.00,5000.00,0.00" projParameter="!"/>
 
-    <type id="highwayType" priority="2" numLanes="3" speed="70.00"/>
+    <type id="highwayType" priority="2" numLanes="3" speed="19.44"/>
 
     <edge id=":node2_0" function="internal">
-        <lane id=":node2_0_0" index="0" speed="70.00" length="0.10" shape="1000.00,-8.00 1000.00,-8.00"/>
-        <lane id=":node2_0_1" index="1" speed="70.00" length="0.10" shape="1000.00,-4.80 1000.00,-4.80"/>
-        <lane id=":node2_0_2" index="2" speed="70.00" length="0.10" shape="1000.00,-1.60 1000.00,-1.60"/>
+        <lane id=":node2_0_0" index="0" speed="19.44" length="0.10" shape="1000.00,-8.00 1000.00,-8.00"/>
+        <lane id=":node2_0_1" index="1" speed="19.44" length="0.10" shape="1000.00,-4.80 1000.00,-4.80"/>
+        <lane id=":node2_0_2" index="2" speed="19.44" length="0.10" shape="1000.00,-1.60 1000.00,-1.60"/>
     </edge>
     <edge id=":node3_0" function="internal">
-        <lane id=":node3_0_0" index="0" speed="70.00" length="0.10" shape="2000.00,-8.00 2000.00,-8.00"/>
-        <lane id=":node3_0_1" index="1" speed="70.00" length="0.10" shape="2000.00,-4.80 2000.00,-4.80"/>
-        <lane id=":node3_0_2" index="2" speed="70.00" length="0.10" shape="2000.00,-1.60 2000.00,-1.60"/>
+        <lane id=":node3_0_0" index="0" speed="19.44" length="0.10" shape="2000.00,-8.00 2000.00,-8.00"/>
+        <lane id=":node3_0_1" index="1" speed="19.44" length="0.10" shape="2000.00,-4.80 2000.00,-4.80"/>
+        <lane id=":node3_0_2" index="2" speed="19.44" length="0.10" shape="2000.00,-1.60 2000.00,-1.60"/>
     </edge>
     <edge id=":node4_0" function="internal">
-        <lane id=":node4_0_0" index="0" speed="70.00" length="0.10" shape="3000.00,-8.00 3000.00,-8.00"/>
-        <lane id=":node4_0_1" index="1" speed="70.00" length="0.10" shape="3000.00,-4.80 3000.00,-4.80"/>
-        <lane id=":node4_0_2" index="2" speed="70.00" length="0.10" shape="3000.00,-1.60 3000.00,-1.60"/>
+        <lane id=":node4_0_0" index="0" speed="19.44" length="0.10" shape="3000.00,-8.00 3000.00,-8.00"/>
+        <lane id=":node4_0_1" index="1" speed="19.44" length="0.10" shape="3000.00,-4.80 3000.00,-4.80"/>
+        <lane id=":node4_0_2" index="2" speed="19.44" length="0.10" shape="3000.00,-1.60 3000.00,-1.60"/>
     </edge>
     <edge id=":node5_0" function="internal">
-        <lane id=":node5_0_0" index="0" speed="70.00" length="0.10" shape="4000.00,-8.00 4000.00,-8.00"/>
-        <lane id=":node5_0_1" index="1" speed="70.00" length="0.10" shape="4000.00,-4.80 4000.00,-4.80"/>
-        <lane id=":node5_0_2" index="2" speed="70.00" length="0.10" shape="4000.00,-1.60 4000.00,-1.60"/>
+        <lane id=":node5_0_0" index="0" speed="19.44" length="0.10" shape="4000.00,-8.00 4000.00,-8.00"/>
+        <lane id=":node5_0_1" index="1" speed="19.44" length="0.10" shape="4000.00,-4.80 4000.00,-4.80"/>
+        <lane id=":node5_0_2" index="2" speed="19.44" length="0.10" shape="4000.00,-1.60 4000.00,-1.60"/>
     </edge>
 
     <edge id="edge1" from="node1" to="node2" priority="-1">
-        <lane id="edge1_0" index="0" speed="70.00" length="1000.00" shape="0.00,-8.00 1000.00,-8.00"/>
-        <lane id="edge1_1" index="1" speed="70.00" length="1000.00" shape="0.00,-4.80 1000.00,-4.80"/>
-        <lane id="edge1_2" index="2" speed="70.00" length="1000.00" shape="0.00,-1.60 1000.00,-1.60"/>
+        <lane id="edge1_0" index="0" speed="19.44" length="1000.00" shape="0.00,-8.00 1000.00,-8.00"/>
+        <lane id="edge1_1" index="1" speed="19.44" length="1000.00" shape="0.00,-4.80 1000.00,-4.80"/>
+        <lane id="edge1_2" index="2" speed="19.44" length="1000.00" shape="0.00,-1.60 1000.00,-1.60"/>
     </edge>
     <edge id="edge2" from="node2" to="node3" priority="-1">
-        <lane id="edge2_0" index="0" speed="70.00" length="1000.00" shape="1000.00,-8.00 2000.00,-8.00"/>
-        <lane id="edge2_1" index="1" speed="70.00" length="1000.00" shape="1000.00,-4.80 2000.00,-4.80"/>
-        <lane id="edge2_2" index="2" speed="70.00" length="1000.00" shape="1000.00,-1.60 2000.00,-1.60"/>
+        <lane id="edge2_0" index="0" speed="19.44" length="1000.00" shape="1000.00,-8.00 2000.00,-8.00"/>
+        <lane id="edge2_1" index="1" speed="19.44" length="1000.00" shape="1000.00,-4.80 2000.00,-4.80"/>
+        <lane id="edge2_2" index="2" speed="19.44" length="1000.00" shape="1000.00,-1.60 2000.00,-1.60"/>
     </edge>
     <edge id="edge3" from="node3" to="node4" priority="-1">
-        <lane id="edge3_0" index="0" speed="70.00" length="1000.00" shape="2000.00,-8.00 3000.00,-8.00"/>
-        <lane id="edge3_1" index="1" speed="70.00" length="1000.00" shape="2000.00,-4.80 3000.00,-4.80"/>
-        <lane id="edge3_2" index="2" speed="70.00" length="1000.00" shape="2000.00,-1.60 3000.00,-1.60"/>
+        <lane id="edge3_0" index="0" speed="19.44" length="1000.00" shape="2000.00,-8.00 3000.00,-8.00"/>
+        <lane id="edge3_1" index="1" speed="19.44" length="1000.00" shape="2000.00,-4.80 3000.00,-4.80"/>
+        <lane id="edge3_2" index="2" speed="19.44" length="1000.00" shape="2000.00,-1.60 3000.00,-1.60"/>
     </edge>
     <edge id="edge4" from="node4" to="node5" priority="-1">
-        <lane id="edge4_0" index="0" speed="70.00" length="1000.00" shape="3000.00,-8.00 4000.00,-8.00"/>
-        <lane id="edge4_1" index="1" speed="70.00" length="1000.00" shape="3000.00,-4.80 4000.00,-4.80"/>
-        <lane id="edge4_2" index="2" speed="70.00" length="1000.00" shape="3000.00,-1.60 4000.00,-1.60"/>
+        <lane id="edge4_0" index="0" speed="19.44" length="1000.00" shape="3000.00,-8.00 4000.00,-8.00"/>
+        <lane id="edge4_1" index="1" speed="19.44" length="1000.00" shape="3000.00,-4.80 4000.00,-4.80"/>
+        <lane id="edge4_2" index="2" speed="19.44" length="1000.00" shape="3000.00,-1.60 4000.00,-1.60"/>
     </edge>
     <edge id="edge5" from="node5" to="node6" priority="-1">
-        <lane id="edge5_0" index="0" speed="70.00" length="1000.00" shape="4000.00,-8.00 5000.00,-8.00"/>
-        <lane id="edge5_1" index="1" speed="70.00" length="1000.00" shape="4000.00,-4.80 5000.00,-4.80"/>
-        <lane id="edge5_2" index="2" speed="70.00" length="1000.00" shape="4000.00,-1.60 5000.00,-1.60"/>
+        <lane id="edge5_0" index="0" speed="19.44" length="1000.00" shape="4000.00,-8.00 5000.00,-8.00"/>
+        <lane id="edge5_1" index="1" speed="19.44" length="1000.00" shape="4000.00,-4.80 5000.00,-4.80"/>
+        <lane id="edge5_2" index="2" speed="19.44" length="1000.00" shape="4000.00,-1.60 5000.00,-1.60"/>
     </edge>
 
     <junction id="node1" type="dead_end" x="0.00" y="0.00" incLanes="" intLanes="" shape="0.00,0.00 0.00,-9.60"/>
